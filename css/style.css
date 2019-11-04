@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css?family=Kalam:400,700|Quicksand:400,700&display=swap");
+body {
+  background: #dddddd;
+  font-family: 'Quicksand', sans-serif;
+}
+
+header {
+  font-family: 'kalam', cursive;
+  background: #007250;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 4rem;
+  margin: 0;
+  padding-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+header h3 {
+  font-size: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+.about {
+  margin: 0 auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  width: 95%;
+}
+
+.about h2 {
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.behance,
+.behance:hover {
+  color: #007250;
+}
+
+.projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  width: 95%;
+}
+
+img,
+.placeholder-img {
+  width: 580px;
+  height: 469px;
+  border: 2px solid #fff;
+  margin-bottom: 2rem;
+}
+
+.placeholder-img {
+  background-color: skyblue;
+}
+
+.placeholder-img p {
+  text-align: center;
+  margin-top: 40%;
+  font-size: 2.5rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+a {
+  color: #007250;
+}
+
+a:hover {
+  color: #007250;
+}
+
+@media (min-width: 992px) {
+  header h1 {
+    font-size: 6rem;
+  }
+  header h3 {
+    font-size: 2.5rem;
+  }
+  .projects {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row;
+            flex-flow: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  h4 {
+    font-size: 1.5rem;
+  }
+  img {
+    height: auto;
+    margin: 0 0rem;
+  }
+  .about {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+  .about h2 {
+    font-size: 2rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
