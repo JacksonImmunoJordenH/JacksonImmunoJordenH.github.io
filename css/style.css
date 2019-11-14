@@ -6,7 +6,7 @@ body {
 
 header {
   font-family: 'kalam', cursive;
-  background: #007250;
+  background: #009453;
   color: #fff;
   text-transform: uppercase;
   margin: 0 auto;
@@ -39,7 +39,7 @@ header h3 {
 
 .behance,
 .behance:hover {
-  color: #007250;
+  color: #009453;
 }
 
 .projects {
@@ -58,7 +58,7 @@ img,
 .placeholder-img {
   width: 580px;
   height: 469px;
-  border: 2px solid #fff;
+  border: 3px solid #d4edfc;
   margin-bottom: 2rem;
 }
 
@@ -78,11 +78,11 @@ h4 {
 }
 
 a {
-  color: #007250;
+  color: #009453;
 }
 
 a:hover {
-  color: #007250;
+  color: #009453;
 }
 
 @media (min-width: 992px) {
